@@ -1,0 +1,6 @@
+train: /home/fateennr/Codes/Experiments/assessment_task/visDrone/VisDrone_Dataset/VisDrone2019-DET-train
+test: /home/fateennr/Codes/Experiments/assessment_task/visDrone/VisDrone_Dataset/VisDrone2019-DET-test-dev
+val: /home/fateennr/Codes/Experiments/assessment_task/visDrone/VisDrone_Dataset/VisDrone2019-DET-val
+
+nc: 2
+names: ['person', 'car']
