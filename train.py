@@ -25,8 +25,10 @@ def detect_and_count(image_path):
 
 model = YOLO('yolo26n.pt')
 
-model.train(data='custom_dataset.yaml', epochs=50, imgsz=640, 
-            batch=8, device=0, workers=2)
+model.train(data='custom_dataset.yaml', epochs=50, imgsz=960, 
+            batch=8, device=0, mosaic=1.0, close_mosaic=10, 
+            scale=0.25, translate=0.08, degrees=3, fliplr=0.5, hsv_s=0.4, hsv_v=0.3)
+
 # epoch ideally should be around 50-300, taking the lowest for now to test
 # 960 or 1280 often performs noticeably better for pedestrians/cars in aerial imagery
 # batch size 16 is stable

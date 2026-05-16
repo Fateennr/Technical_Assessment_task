@@ -1,7 +1,7 @@
 import os
 
-input_dir = '/home/fateennr/Codes/Experiments/assessment_task/visDrone/VisDrone_Dataset/VisDrone2019-DET-train/labels'
-output_dir = '/home/fateennr/Codes/Experiments/assessment_task/visDrone/VisDrone_Dataset/VisDrone2019-DET-train/labels_filtered'
+input_dir = '/home/fateennr/Codes/Experiments/assessment_task/visDrone/VisDrone_Dataset/VisDrone2019-DET-val/labels'
+output_dir = '/home/fateennr/Codes/Experiments/assessment_task/visDrone/VisDrone_Dataset/VisDrone2019-DET-val/labels_filtered'
 
 os.makedirs(output_dir, exist_ok=True)
 
