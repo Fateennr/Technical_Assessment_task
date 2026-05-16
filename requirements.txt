@@ -3,3 +3,4 @@ opencv-python
 matplotlib 
 tqdm
 label-studio
+deep-sort-realtime
