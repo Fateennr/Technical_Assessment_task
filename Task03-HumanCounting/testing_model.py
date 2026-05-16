@@ -3,10 +3,10 @@ import os
 from ultralytics import YOLO
 
 # ── Paths ──────────────────────────────────────────────────────────────
-MODEL_PATH  = '/home/fateennr/Codes/Experiments/assessment_task/detect-960px-mosaic-augmentation/train-8/weights/best.pt'
+MODEL_PATH  = '/home/fateennr/Codes/Experiments/assessment_task/Task05-Evaluation&Visualization/detect-960px-mosaic-augmentation/train-8/weights/best.pt'
 VIDEO_PATH  = '/home/fateennr/Codes/Experiments/assessment_task/tests/video1.mp4'
 OUTPUT_DIR  = '/home/fateennr/Codes/Experiments/assessment_task/outputs'
-OUTPUT_PATH = os.path.join(OUTPUT_DIR, 'output_video.mp4')
+OUTPUT_PATH = os.path.join(OUTPUT_DIR, 'output_crowded.mp4')
 
 # ── Pre-flight checks ──────────────────────────────────────────────────
 print("=" * 50)
